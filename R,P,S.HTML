@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<body>
+    <script>
+            
+            //*computer options*// 
+           
+            let computerOption="rock,paper,scissors";
+             let compchioce=computerOption.split(",");
+            
+            //*computer play*//
+            function computerPlay(compchioce)
+            { 
+                const randomIndex= Math.floor(Math.random()*compchioce.length);
+                 compPick= compchioce[randomIndex];
+                
+            }
+           //*player choice*//
+            const playerOption=prompt("Please enter rock, paper or scissors");
+            
+            console.log(compchioce);
+            console.log(computerPlay);
+            console.log(playerOption);
+    </script>
+</body>
+
+
+
+
+
+</html>
